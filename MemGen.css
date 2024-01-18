@@ -1,0 +1,154 @@
+body {
+  background-color:#464c52;
+}
+
+section {
+  display: flexbox;
+  background-color: #676f77;
+  padding: 10px;
+  border-radius: 4px;
+  border: solid black 2px;
+}
+
+h1, h3 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+label, input {
+  display: flex;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px 3% 10px;
+  flex-direction: row;
+  position: relative;
+  margin-left: 22%;
+  
+}
+
+input {
+  width: 55%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+
+#memeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .meme {
+    position: relative;
+    min-width: 300px;
+    height: 300px;
+    border: 2px solid #ccc;
+    margin: 10px;
+    overflow: hidden;
+    border: solid black 3px;
+    justify-content: center;
+  }
+
+  .topText, .bottomText {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    pointer-events: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+
+  .topText {
+    top: 10px;
+  }
+
+  .bottomText {
+    bottom: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #button{
+    color: white;
+    background-color: #494b4d;
+    width: 150px;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 50px auto;
+    display: block;
+  }
+
+
+  #button:focus {
+    outline: none;
+  }
+  
+  #button:hover {
+    cursor: pointer;
+    background-color: #3a3a3a;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #464c52;
+    
+    color: white;
+    margin: 25px auto;
+    display: flex;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 2px black;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #373b3f;
+  }
+
+
